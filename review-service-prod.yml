@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
+    url: ${DB_URL}
+  jpa:
+    properties:
+      hibernate:
+        show_sql: false
