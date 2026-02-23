@@ -4,6 +4,11 @@ spring:
     password: ${DB_PASSWORD}
     url: ${DB_URL}
   jpa:
+    hibernate:
+      ddl-auto: validate
     properties:
       hibernate:
         show_sql: false
+
+external:
+  discovery-service-url: ${DISCOVERY_SERVICE_URL}
