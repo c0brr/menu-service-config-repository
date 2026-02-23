@@ -7,3 +7,6 @@ spring:
     properties:
       hibernate:
         show_sql: false
+
+external:
+  discovery-service-url: ${DISCOVERY_SERVICE_URL}
