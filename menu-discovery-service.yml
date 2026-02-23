@@ -7,7 +7,7 @@ server:
 
 spring:
   application:
-    name: discovery-service
+    name: menu-dicovery-service
   lifecycle:
     timeout-per-shutdown-phase: 30s
 
