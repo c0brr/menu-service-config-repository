@@ -42,8 +42,8 @@ spring:
             - name: CircuitBreaker
               args:
                 name: menuServiceCircuitBreaker
-        - id: order-service-route
-          uri: lb://order-service
+        - id: orders-service-route
+          uri: lb://orders-service
           predicates:
             - Path=/v1/menu-orders/**
           filters:
