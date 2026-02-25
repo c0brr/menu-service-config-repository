@@ -1,6 +1,7 @@
 external:
   discovery-service-url: ${DISCOVERY_SERVICE_URL}
   default-timeout: 5s
+  zipkin-endpoint: ${ZIPKIN_URL}
 
 management:
   endpoints:
