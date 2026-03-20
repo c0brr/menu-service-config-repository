@@ -17,6 +17,8 @@ external:
   discovery-service-url: ${DISCOVERY_SERVICE_URL}
   default-timeout: 5s
   zipkin-endpoint: ${ZIPKIN_URL}
+  keycloak-url: ${KEYCLOAK_URL}
+  jwk-set-url: ${JWK_SET_URL}
 
 management:
   endpoints:
