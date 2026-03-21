@@ -136,8 +136,8 @@ external:
   redis-host: localhost
   redis-port: 6379
   zipkin-endpoint: http://localhost:9411/api/v2/spans
-  keycloak-url: http://keycloak:8080/realms/cloud-java
-  keycloak-client-secret: 5eVPs8Am7if8P6KMUi4nSFpZJhIh1uE1
+  keycloak-url: http://keycloak:8080/realms/menu-service
+  keycloak-client-secret: AKPK0m9FNqB4jwMsfewg08OGqH5z2vBN
 
 management:
   endpoints:
